@@ -1,0 +1,30 @@
+body {
+  background: radial-gradient(circle, #050b1a, #000);
+  color: cyan;
+  text-align: center;
+  font-family: Arial;
+}
+
+.core {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid cyan;
+  line-height: 140px;
+  margin: 30px auto;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 10px cyan; }
+  50% { box-shadow: 0 0 40px cyan; }
+  100% { box-shadow: 0 0 10px cyan; }
+}
+
+button {
+  background: cyan;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+}
