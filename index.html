@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KHUS AI</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://unpkg.com/face-api.js"></script>
+</head>
+<body>
+
+<div id="lock">
+  <h2>KHUS Security Scan</h2>
+  <video id="video" autoplay></video>
+  <p>Scanning face...</p>
+</div>
+
+<div id="app" hidden>
+  <div class="core">KHUS</div>
+  <p id="output">Say: Hey KHUS</p>
+  <button onclick="startListening()">🎤 Activate</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
